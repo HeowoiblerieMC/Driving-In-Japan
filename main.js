@@ -1,22 +1,28 @@
+const status =
+document.getElementById(
+    "status"
+);
+
 fetch("./map.osm.xml")
 .then(response => response.text())
 .then(text => {
 
-    console.log("OSM Loaded!");
+    const parser =
+        new DOMParser();
 
-    const parser = new DOMParser();
-
-    const xml = parser.parseFromString(
-        text,
-        "text/xml"
-    );
+    const xml =
+        parser.parseFromString(
+            text,
+            "text/xml"
+        );
 
     const nodes =
-        xml.querySelectorAll("node");
+        xml.querySelectorAll(
+            "node"
+        );
 
-    console.log(
-        "Nodes:",
-        nodes.length
-    );
+    status.innerHTML =
+        `OSM Loaded<br>
+         Nodes: ${nodes.length}`;
 
 });
