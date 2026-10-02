@@ -25,4 +25,12 @@ fetch("./map.osm.xml")
         `OSM Loaded<br>
          Nodes: ${nodes.length}`;
 
+})
+.catch(error => {
+
+    status.innerHTML =
+        "OSM Load Failed";
+
+    console.error(error);
+
 });
