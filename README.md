@@ -1,9 +1,5 @@
 # Driving-In-Japan
-this is driving simulator (game), it is BIGGEST project :3!! map design is Japan. if you come, you can play it NOW! but not done yet :O
 
-🇯🇵 Japanese Driving
+🇯🇵 Driving in Japan
 
-A driving game inspired by real Japanese cities.
-
-First Target:
-Osaka -> Kobe
+A driving game inspired by real Japanese cities! Now I came to Osaka, Japan from Boston, US. And I thought that I wanna make a simulator game. So, I'm gonna make driving simulator in Osaka, and Kobe, which is nearby town :D
